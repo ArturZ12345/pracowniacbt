@@ -16,14 +16,14 @@ export default async function HomePage() {
           alt="Sky background"
           layout="fill"
           objectFit="cover"
-          className="absolute inset-0 z-0 brightness-125 filter blur-sm"
+          className="absolute inset-0 z-0 brightness-125 filter blur-sm opacity-30"
         />
         <div className="relative z-10 flex h-[80%] w-full justify-center">
           <div className="text-center">
             <h1
               className={`mb-4 text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl text-[#134F5C] ${merriweather.className} italic`}
             >
-              <span className="block p-[10%]"></span>
+              <span className="block p-[5%]"></span>
               <div className="flex flex-col items-center">
                 <span className="block z-10">Gabinet psychoterapii</span>
                 <span className="block w-full max-w-lg border-b-[16px] border-solid border-[#69A297]"></span>
@@ -40,51 +40,6 @@ export default async function HomePage() {
         <p className=" font-bold text-black">
           Psychoterapia trudności funkcjonowania w obszarze myśli, emocji i
           zachowań. Oferuję profesjonalną informację, wsparcie i pomoc.
-        </p>
-      </section>
-      <section
-        className={`text-center py-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose`}
-      >
-        <p className=" font-normal">
-          Jestem <b>certyfikowanym psychoterapeutą</b> pracującym w nurcie
-          terapii poznawczo-behawioralnej wzbogaconej podejściem terapii
-          schematu, certyfikatu PTTPB 1510. mindfulness i akceptacji - w duchu
-          dialogu motywującego - <b>nr certyfikatu PTTPB 1510</b>
-        </p>
-        <p className=" font-normal ">
-          Posiadam także certyfikat specjalisty psychoterapii uzależnień -
-          <b>SP 1356/2017</b>.
-        </p>
-        <p className=" font-normal ">
-          Jestem członkiem{" "}
-          <b>Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej.</b>
-        </p>
-        <p className=" font-normal ">
-          Swoją pracę poddaję systematycznej superwizji, co gwarantuje jakość i
-          profesjonalizm podejmowanych działań.
-        </p>
-      </section>
-      <section
-        className={`text-center py-4 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose`}
-      >
-        <p className=" font-normal py-2 ">
-          Prowadzę terapię indywidualną, konsultacje dla par.
-        </p>
-        <p className=" font-normal py-2">
-          Oferuję profesjonalną psychoterapię, wsparcie i pomoc. Kieruję się
-          ideą pracy opartej na partnerstwie, poszanowaniu autonomii,
-          odpowiedzialności, przy pełnej akceptacji dla wyborów i decyzji osób,
-          które się do mnie zgłaszają.
-        </p>
-        <p className=" font-normal py-2">
-          Kieruję się ideą pracy opartej na partnerstwie, poszanowaniu
-          autonomii, odpowiedzialności, przy pełnej akceptacji dla wyborów i
-          decyzji osób, które się do mnie zgłaszają.
-        </p>
-        <p className=" font-normal py-2 ">
-          Pracuję z osobami z zaburzeniami osobowości, w kryzysach,
-          uzależnionymi od substancji psychoaktywnych, a także w obszarze
-          uzależnień behawioralnych, czynnościowych.
         </p>
       </section>
       <section
@@ -180,6 +135,52 @@ export default async function HomePage() {
             <p className="">43-300 Bielsko-Biała</p>
           </div>
         </div>
+      </section>
+
+      <section
+        className={`text-center py-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose`}
+      >
+        <p className=" font-normal">
+          Jestem <b>certyfikowanym psychoterapeutą</b> pracującym w nurcie
+          terapii poznawczo-behawioralnej wzbogaconej podejściem terapii
+          schematu, certyfikatu PTTPB 1510. mindfulness i akceptacji - w duchu
+          dialogu motywującego - <b>nr certyfikatu PTTPB 1510</b>
+        </p>
+        <p className=" font-normal ">
+          Posiadam także certyfikat specjalisty psychoterapii uzależnień -
+          <b>SP 1356/2017</b>.
+        </p>
+        <p className=" font-normal ">
+          Jestem członkiem{" "}
+          <b>Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej.</b>
+        </p>
+        <p className=" font-normal ">
+          Swoją pracę poddaję systematycznej superwizji, co gwarantuje jakość i
+          profesjonalizm podejmowanych działań.
+        </p>
+      </section>
+      <section
+        className={`text-center py-4 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose`}
+      >
+        <p className=" font-normal py-2 ">
+          Prowadzę terapię indywidualną, konsultacje dla par.
+        </p>
+        <p className=" font-normal py-2">
+          Oferuję profesjonalną psychoterapię, wsparcie i pomoc. Kieruję się
+          ideą pracy opartej na partnerstwie, poszanowaniu autonomii,
+          odpowiedzialności, przy pełnej akceptacji dla wyborów i decyzji osób,
+          które się do mnie zgłaszają.
+        </p>
+        <p className=" font-normal py-2">
+          Kieruję się ideą pracy opartej na partnerstwie, poszanowaniu
+          autonomii, odpowiedzialności, przy pełnej akceptacji dla wyborów i
+          decyzji osób, które się do mnie zgłaszają.
+        </p>
+        <p className=" font-normal py-2 ">
+          Pracuję z osobami z zaburzeniami osobowości, w kryzysach,
+          uzależnionymi od substancji psychoaktywnych, a także w obszarze
+          uzależnień behawioralnych, czynnościowych.
+        </p>
       </section>
     </section>
   );
