@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.psychoterapiacbt.org.pl/sitemap.xml
