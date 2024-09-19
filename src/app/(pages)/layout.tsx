@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Gabinet psychoterapii poznawczo-behawioralnej - Bielsko Biała",
   description:
-    "Gabinet psychoterapii w Bielsko-Białej specjalizujący się w terapii poznawczo-behawioralnej (CBT) oraz psychoterapii uzależnień. Oferuję profesjonalną pomoc osobom zmagającym się z trudnościami w obszarze emocji, myśli i zachowań. Jestem certyfikowanym psychoterapeutą z certyfikatem PTTPB oraz specjalistą psychoterapii uzależnień - KBPN. Pracuję z osobami z zaburzeniami osobowości, depresją, lękiem, fobiami, zaburzeniami obsesyjno-kompulsyjnymi, a także uzależnionymi od substancji i czynności. Prowadzę terapię indywidualną, konsultacje dla par oraz sesje online. Terapia skoncentrowana na rozwiązaniu problemów, krótko- i długoterminowa, dostosowana do potrzeb klienta.",
+    "Gabinet psychoterapii Ewa Zając w Bielsko-Białej specjalizujący się w terapii poznawczo-behawioralnej (CBT) oraz psychoterapii uzależnień. Oferuję profesjonalną pomoc osobom zmagającym się z trudnościami w obszarze emocji, myśli i zachowań. Jestem certyfikowanym psychoterapeutą z certyfikatem PTTPB oraz specjalistą psychoterapii uzależnień - KBPN. Pracuję z osobami z zaburzeniami osobowości, depresją, lękiem, fobiami, zaburzeniami obsesyjno-kompulsyjnymi, a także uzależnionymi od substancji i czynności. Prowadzę terapię indywidualną, konsultacje dla par oraz sesje online. Terapia skoncentrowana na rozwiązaniu problemów, krótko- i długoterminowa, dostosowana do potrzeb klienta.",
 };
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta
           name="keywords"
-          content="Gabinet psychoterapii Bielsko-Biała, Psychoterapia poznawczo-behawioralna Bielsko-Biała, Psychoterapia uzależnień, PsychoTerapia online, Psychoterapia depresji i lęku, Certyfikowany psychoterapeuta"
+          content="Gabinet psychoterapii Bielsko-Biała, Psychoteriapia Ewa Zając, Psychoterapia poznawczo-behawioralna Bielsko-Biała, Psychoterapia uzależnień, PsychoTerapia online, Psychoterapia depresji i lęku, Certyfikowany psychoterapeuta"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
