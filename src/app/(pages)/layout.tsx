@@ -1,14 +1,9 @@
 import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/blocks/theme-provider";
-import { Inter, Merriweather } from "next/font/google";
+import { Inter } from "next/font/google";
 import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
-export const merriweather = Merriweather({
-  subsets: ["latin"],
-  weight: ["300", "400", "700", "900"],
-  variable: "--font-merriweather",
-});
 
 export const metadata = {
   title: "Gabinet psychoterapii poznawczo-behawioralnej - Bielsko Biała",

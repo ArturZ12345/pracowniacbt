@@ -1,5 +1,11 @@
+import { Merriweather } from "next/font/google";
 import Image from "next/image";
-import { merriweather } from "./layout";
+
+export const merriweather = Merriweather({
+  subsets: ["latin"],
+  weight: ["300", "400", "700", "900"],
+  variable: "--font-merriweather",
+});
 
 export default async function HomePage() {
   return (
