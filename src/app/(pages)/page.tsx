@@ -49,7 +49,7 @@ export default async function HomePage() {
           Terapia poznawczo-behawioralna adresowana jest do osób z zaburzeniami
           depresyjnymi, fobiami, z zaniżoną samooceną. Skuteczna zwłaszcza w
           zaburzeniach lękowych, z atakami paniki, w trudnościach emocjonalnych,
-          zaburzeniach obsesyjno-kompulsyjnych, w kryzysach życiowych,
+          zaburzeniach obsesyjno-kompulsyjnych, w kryzysach życiowych.
         </p>
         <p className=" font-normal ">
           Krótkoterminowa. Skoncentrowana na rozwiązaniu problemu, o
