@@ -23,7 +23,7 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta
           name="keywords"
-          content="Gabinet psychoterapii Bielsko-Biała, Psychoteriapia Ewa Zając, Psychoterapia poznawczo-behawioralna Bielsko-Biała, Psychoterapia uzależnień, Terapia online, Psychoterapia depresji i lęku, Psychoterapia depresji i zaburzeń lękowych, Terapia schematu Bielsko Biała, Specjalista psychoterapii uzależnień, Zaburzenia osobowości terapia, Konsultacje rodzinne i związków, Psychoterapia w kryzysach życiowych, Certyfikowany psychoterapeuta, Ewa Zając, Fobie, Depresja, Zaburzenie obsesyjne, Lęk paniczny"
+          content="Uzależnienia, Zaburzenia osobowości, Psychoterapia Bielsko-Biała"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
