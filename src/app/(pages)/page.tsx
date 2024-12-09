@@ -101,7 +101,7 @@ export default async function HomePage() {
           w terminie dostosowanym do możliwości.
         </p>
         <p className=" font-normal pt-4 ">
-          Spotkanie indywidualne trwa 50 minut. Cena 170 zł.
+          Spotkanie indywidualne trwa 50 minut. Cena 190 zł.
         </p>
         <p className=" font-normal pt-4 ">
           Spotkanie dla par, rodzinne trwa od 50 do 70 minut. Cena 250 zł.
