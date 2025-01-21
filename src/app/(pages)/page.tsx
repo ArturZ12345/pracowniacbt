@@ -45,7 +45,9 @@ export default async function HomePage() {
       <section
         className={`py-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose `}
       >
-        <p className="">
+        <p className="">.center {
+  text-align: center;
+}
           Terapia poznawczo-behawioralna adresowana jest do osób z zaburzeniami
           depresyjnymi, fobiami, z zaniżoną samooceną. Skuteczna zwłaszcza w
           zaburzeniach lękowych, z atakami paniki, w trudnościach emocjonalnych,
