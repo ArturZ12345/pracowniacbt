@@ -87,10 +87,8 @@ podejmowanych działań.</p>
              <p className=" font-normal "> Treningi interpersonalne ( współprowadząca w szkoleniu PTZN Oddz. w Katowicach)
           </p>
             <p className=" font-normal "> Socjoterapia
-          </p>
-           
-           <p className="font-bold text-3xl">
-            Oferta:
+          </p>  
+           <p className="font-bold text-3xl">Oferta:
           </p>
           <p className=" pt-2 font-sem ">Prowadzę terapię indywidualną, konsultacje dla par.
 Pracuję z osobami dorosłymi oraz młodzieżą powyżej 16 lat.</p>
