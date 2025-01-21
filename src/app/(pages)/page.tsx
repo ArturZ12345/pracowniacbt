@@ -88,7 +88,7 @@ podejmowanych działań.</p>
           </p>
             <p className=" font-normal "> Socjoterapia
           </p>  
-           <p className="font-bold text-2xl">Oferta:
+           <p className="font-bold text-2xl"> Oferta:
           </p>
           <p className=" pt-2 font-sem ">Prowadzę terapię indywidualną, konsultacje dla par.
 Pracuję z osobami dorosłymi oraz młodzieżą powyżej 16 lat.</p>
@@ -105,11 +105,11 @@ mnie zgłaszają.</p>
             <p className=" font-normal "> uzależnionymi od substancji psychoaktywnych, a także w obszarze uzależnień behawioralnych,
 czynnościowych
           </p>
-            <p className=" font-normal ">ASD, ADHD
+            <p className=" font-normal "> ASD, ADHD
           </p>
            <p className=" pt-2 font-sem ">A także:</p>
             
-            <p className=" font-normal ">w trudnych sytuacjach życiowych uniemożliwiających funkcjonalne rozwiązywanie problemów
+            <p className=" font-normal "> w trudnych sytuacjach życiowych uniemożliwiających funkcjonalne rozwiązywanie problemów
           </p>
           <p className=" font-normal "> w konfliktach w relacjach
           </p>
@@ -118,7 +118,7 @@ czynnościowych
       <p className=" font-normal "> w trudnościach związanych z aktywnością zawodową ( wypalenie zawodowe, konflikty)
           </p>
      <p className=" font-normal "> w sytuacji poczucia bezsilności, niemożności podejmowania działań i samodzielnego
-rozwiązywania problemówh
+rozwiązywania problemów
           </p>
       </section>
       <section
