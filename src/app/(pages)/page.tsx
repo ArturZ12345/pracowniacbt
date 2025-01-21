@@ -89,7 +89,7 @@ podejmowanych działań.</p>
             <p className=" font-normal "> Socjoterapia
           </p>
            
-           <p className="font-bold text-2xl">
+           <p className="font-bold text-3xl">
             Oferta:
           </p>
           <p className=" pt-2 font-sem ">Prowadzę terapię indywidualną, konsultacje dla par.
