@@ -99,27 +99,29 @@ poszanowaniu autonomii, odpowiedzialności, przy pełnej akceptacji dla wyborów
 mnie zgłaszają.</p>
           <p className=" pt-2 font-sem ">Pracuję:</p>
             <p className=" font-normal "> z osobami z zaburzeniami osobowości,
-          </p><p className=" font-normal "> z zaburzeniami nastroju (m.in. depresyjne)
-          </p><p className=" font-normal "> w kryzysach życiowych, adaptacyjnych, pourazowych
-          </p><p className=" font-normal "> uzależnionymi od substancji psychoaktywnych, a także w obszarze uzależnień behawioralnych,
+          </p>
+            <p className=" font-normal "> z zaburzeniami nastroju (m.in. depresyjne)
+          </p>
+            <p className=" font-normal "> w kryzysach życiowych, adaptacyjnych, pourazowych
+          </p>
+            <p className=" font-normal "> uzależnionymi od substancji psychoaktywnych, a także w obszarze uzależnień behawioralnych,
 czynnościowych
-          </p><p className=" font-normal ">ASD, ADHD
+          </p>
+            <p className=" font-normal ">ASD, ADHD
           </p>
            <p className=" pt-2 font-sem ">A także:</p>
             
             <p className=" font-normal ">w trudnych sytuacjach życiowych uniemożliwiających funkcjonalne rozwiązywanie problemów
           </p>
-          </p><p className=" font-normal "> w konfliktach w relacjach
+          <p className=" font-normal "> w konfliktach w relacjach
           </p>
-        </p><p className=" font-normal "> w sytuacji poczucia braku wpływu, kontroli nad istotnymi obszarami życia
+        <p className=" font-normal "> w sytuacji poczucia braku wpływu, kontroli nad istotnymi obszarami życia
           </p>
-      </p><p className=" font-normal "> w trudnościach związanych z aktywnością zawodową ( wypalenie zawodowe, konflikty)
+      <p className=" font-normal "> w trudnościach związanych z aktywnością zawodową ( wypalenie zawodowe, konflikty)
           </p>
-     </p><p className=" font-normal "> w sytuacji poczucia bezsilności, niemożności podejmowania działań i samodzielnego
+     <p className=" font-normal "> w sytuacji poczucia bezsilności, niemożności podejmowania działań i samodzielnego
 rozwiązywania problemówh
           </p>
-    
-        </section>
       </section>
       <section
         className={`px-4 pt-2 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose`}
