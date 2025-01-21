@@ -64,12 +64,12 @@ export default async function HomePage() {
              <p className="pt-2 font-sem">Kompetencje:</p>
 
           <p className=" font-normal ">
-             Certyfikat psychoterapeuty terapii poznawczo-behawioralnej wzbogaconej podejściem
+            - Certyfikat psychoterapeuty terapii poznawczo-behawioralnej wzbogaconej podejściem
 terapii schematu mindfulness i akceptacji - w duchu dialogu motywującego - nr certyfikatu
 PTTPB 1510
           </p>
           <p className=" font-normal ">
-             ukończone szkolenie akredytowane przez Międzynarodowe Towarzystwo Terapii Schematu
+            - ukończone szkolenie akredytowane przez Międzynarodowe Towarzystwo Terapii Schematu
 (ISST) przygotowujące do certyfikatu terapeuty schematu ISST
           </p>
           <p className=" font-normal ">
@@ -80,13 +80,17 @@ Jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej.
 podejmowanych działań.</p>
           <p className="pt-2 font-sem">Doświadczenie zawodowe</p>
           <p className=" font-normal ">
-             Psychoterapia indywidualna
- Terapia grupowa oraz w społeczności terapeutycznej
- Treningi interpersonalne ( współprowadząca w szkoleniu PTZN Oddz. w Katowicach)
- Socjoterapia
+            <p className=" font-normal "> Psychoterapia indywidualna
           </p>
+             <p className=" font-normal "> Terapia grupowa oraz w społeczności terapeutycznej
+          </p>
+             <p className=" font-normal "> Treningi interpersonalne ( współprowadząca w szkoleniu PTZN Oddz. w Katowicach)
+          </p>
+            <p className=" font-normal "> Socjoterapia
+          </p>
+           
            <p className="font-bold text-2xl">
-            O mnie:
+            Oferta:
           </p>
           <p className=" pt-2 font-sem ">Prowadzę terapię indywidualną, konsultacje dla par.
 Pracuję z osobami dorosłymi oraz młodzieżą powyżej 16 lat.</p>
@@ -94,25 +98,27 @@ Pracuję z osobami dorosłymi oraz młodzieżą powyżej 16 lat.</p>
 poszanowaniu autonomii, odpowiedzialności, przy pełnej akceptacji dla wyborów i decyzji osób, które się do
 mnie zgłaszają.</p>
           <p className=" pt-2 font-sem ">Pracuję:</p>
-       <p className=" font-normal ">
-             z osobami z zaburzeniami osobowości,
- z zaburzeniami nastroju (m.in. depresyjne)
- z zaburzeniami lękowymi ( fobie, lęk uogólniony, ataki paniki)
- zaburzenia obsesyjno-kompulsyjne
- w kryzysach życiowych, adaptacyjnych, pourazowych
- uzależnionymi od substancji psychoaktywnych, a także w obszarze uzależnień behawioralnych,
+            <p className=" font-normal "> z osobami z zaburzeniami osobowości,
+          </p><p className=" font-normal "> z zaburzeniami nastroju (m.in. depresyjne)
+          </p><p className=" font-normal "> w kryzysach życiowych, adaptacyjnych, pourazowych
+          </p><p className=" font-normal "> uzależnionymi od substancji psychoaktywnych, a także w obszarze uzależnień behawioralnych,
 czynnościowych
- ASD, ADHD
+          </p><p className=" font-normal ">ASD, ADHD
           </p>
            <p className=" pt-2 font-sem ">A także:</p>
-            <p className=" font-normal ">
-             w trudnych sytuacjach życiowych uniemożliwiających funkcjonalne rozwiązywanie problemów
- w konfliktach w relacjach
- w sytuacji poczucia braku wpływu, kontroli nad istotnymi obszarami życia
- w trudnościach związanych z aktywnością zawodową ( wypalenie zawodowe, konflikty)
- w sytuacji poczucia bezsilności, niemożności podejmowania działań i samodzielnego
-rozwiązywania problemów
+            
+            <p className=" font-normal ">w trudnych sytuacjach życiowych uniemożliwiających funkcjonalne rozwiązywanie problemów
           </p>
+          </p><p className=" font-normal "> w konfliktach w relacjach
+          </p>
+        </p><p className=" font-normal "> w sytuacji poczucia braku wpływu, kontroli nad istotnymi obszarami życia
+          </p>
+      </p><p className=" font-normal "> w trudnościach związanych z aktywnością zawodową ( wypalenie zawodowe, konflikty)
+          </p>
+     </p><p className=" font-normal "> w sytuacji poczucia bezsilności, niemożności podejmowania działań i samodzielnego
+rozwiązywania problemówh
+          </p>
+    
         </section>
       </section>
       <section
