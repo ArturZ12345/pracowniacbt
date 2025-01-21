@@ -88,7 +88,7 @@ podejmowanych działań.</p>
           </p>
             <p className=" font-normal "> Socjoterapia
           </p>  
-           <p className="font-bold text-3xl">Oferta:
+           <p className="font-bold text-2xl">Oferta:
           </p>
           <p className=" pt-2 font-sem ">Prowadzę terapię indywidualną, konsultacje dla par.
 Pracuję z osobami dorosłymi oraz młodzieżą powyżej 16 lat.</p>
