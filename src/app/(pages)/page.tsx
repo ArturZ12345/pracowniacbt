@@ -59,30 +59,59 @@ export default async function HomePage() {
           className={`pt-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose `}
         >
           <p className="font-bold text-2xl">
-            Oferuję pomoc osobom mającym trudności:
+            O mnie
           </p>
+             <p className="pt-2 font-sem">Kompetencje:</p>
 
           <p className=" font-normal ">
-            - w radzeniu sobie ze stresem, napięciem
+             Certyfikat psychoterapeuty terapii poznawczo-behawioralnej wzbogaconej podejściem
+terapii schematu mindfulness i akceptacji - w duchu dialogu motywującego - nr certyfikatu
+PTTPB 1510
           </p>
           <p className=" font-normal ">
-            - w kryzysach emocjonalnych, nadmiernym lęku, napadach złości
+             ukończone szkolenie akredytowane przez Międzynarodowe Towarzystwo Terapii Schematu
+(ISST) przygotowujące do certyfikatu terapeuty schematu ISST
           </p>
           <p className=" font-normal ">
-            - z obniżonym nastrojem, (np. depresja)
+            Certyfikat specjalisty psychoterapii uzależnień -SP 1356/2017
+Jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej.
           </p>
-          <p className=" font-normal ">- w relacjach z innymi,</p>
-          <p className="pt-2 font-sem">a także:</p>
+          <p className=" pt-2 font-sem ">Swoją pracę poddaję systematycznej superwizji, co gwarantuje jakość i profesjonalizm
+podejmowanych działań.</p>
+          <p className="pt-2 font-sem">Doświadczenie zawodowe</p>
           <p className=" font-normal ">
-            - z obniżoną samooceną, myślami lub czynami autodestrukcyjnymi
+             Psychoterapia indywidualna
+ Terapia grupowa oraz w społeczności terapeutycznej
+ Treningi interpersonalne ( współprowadząca w szkoleniu PTZN Oddz. w Katowicach)
+ Socjoterapia
           </p>
-          <p className=" font-normal ">
-            - w zaburzeniach nerwicowych, związanych ze stresem i pod postacią
-            somatyczną (np. zaburzenia obsesyjno-kompulsyjne, lękowe, PTSD)
+           <p className="font-bold text-2xl">
+            O mnie:
           </p>
-          <p className=" font-normal ">
-            - udzielam także pomocy w zakresie zaburzeń osobowości oraz
-            uzależnień.
+          <p className=" pt-2 font-sem ">Prowadzę terapię indywidualną, konsultacje dla par.
+Pracuję z osobami dorosłymi oraz młodzieżą powyżej 16 lat.</p>
+           <p className=" pt-2 font-sem ">Oferuję profesjonalną psychoterapię, wsparcie i pomoc. Kieruję się ideą pracy opartej na partnerstwie,
+poszanowaniu autonomii, odpowiedzialności, przy pełnej akceptacji dla wyborów i decyzji osób, które się do
+mnie zgłaszają.</p>
+          <p className=" pt-2 font-sem ">Pracuję:</p>
+       <p className=" font-normal ">
+             z osobami z zaburzeniami osobowości,
+ z zaburzeniami nastroju (m.in. depresyjne)
+ z zaburzeniami lękowymi ( fobie, lęk uogólniony, ataki paniki)
+ zaburzenia obsesyjno-kompulsyjne
+ w kryzysach życiowych, adaptacyjnych, pourazowych
+ uzależnionymi od substancji psychoaktywnych, a także w obszarze uzależnień behawioralnych,
+czynnościowych
+ ASD, ADHD
+          </p>
+           <p className=" pt-2 font-sem ">A także:</p>
+            <p className=" font-normal ">
+             w trudnych sytuacjach życiowych uniemożliwiających funkcjonalne rozwiązywanie problemów
+ w konfliktach w relacjach
+ w sytuacji poczucia braku wpływu, kontroli nad istotnymi obszarami życia
+ w trudnościach związanych z aktywnością zawodową ( wypalenie zawodowe, konflikty)
+ w sytuacji poczucia bezsilności, niemożności podejmowania działań i samodzielnego
+rozwiązywania problemów
           </p>
         </section>
       </section>
@@ -109,6 +138,9 @@ export default async function HomePage() {
         <p className="font-normal pt-20 ">
           Prowadzę konsultacje oraz terapię również on - line. Zapraszam do
           kontaktu za pośrednictwem Skype : live:.cid.6b72d96fb4d18087
+          <p className="font-bold text-2xl">
+            Kontakt:
+          </p>
         </p>
       </section>
       <section className={`py-16 max-w-5xl mx-auto ${merriweather.className}`}>
@@ -140,47 +172,7 @@ export default async function HomePage() {
       <section
         className={`text-center py-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose`}
       >
-        <p className=" font-normal">
-          Jestem <b>certyfikowanym psychoterapeutą</b> pracującym w nurcie
-          terapii poznawczo-behawioralnej wzbogaconej podejściem terapii
-          schematu, certyfikatu PTTPB 1510. mindfulness i akceptacji - w duchu
-          dialogu motywującego - <b>nr certyfikatu PTTPB 1510</b>
-        </p>
-        <p className=" font-normal ">
-          Posiadam także certyfikat specjalisty psychoterapii uzależnień -
-          <b>SP 1356/2017</b>.
-        </p>
-        <p className=" font-normal ">
-          Jestem członkiem{" "}
-          <b>Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej.</b>
-        </p>
-        <p className=" font-normal ">
-          Swoją pracę poddaję systematycznej superwizji, co gwarantuje jakość i
-          profesjonalizm podejmowanych działań.
-        </p>
-      </section>
-      <section
-        className={`text-center py-4 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose`}
-      >
-        <p className=" font-normal py-2 ">
-          Prowadzę terapię indywidualną, konsultacje dla par.
-        </p>
-        <p className=" font-normal py-2">
-          Oferuję profesjonalną psychoterapię, wsparcie i pomoc. Kieruję się
-          ideą pracy opartej na partnerstwie, poszanowaniu autonomii,
-          odpowiedzialności, przy pełnej akceptacji dla wyborów i decyzji osób,
-          które się do mnie zgłaszają.
-        </p>
-        <p className=" font-normal py-2">
-          Kieruję się ideą pracy opartej na partnerstwie, poszanowaniu
-          autonomii, odpowiedzialności, przy pełnej akceptacji dla wyborów i
-          decyzji osób, które się do mnie zgłaszają.
-        </p>
-        <p className=" font-normal py-2 ">
-          Pracuję z osobami z zaburzeniami osobowości, w kryzysach,
-          uzależnionymi od substancji psychoaktywnych, a także w obszarze
-          uzależnień behawioralnych, czynnościowych.
-        </p>
+       
       </section>
     </section>
   );
