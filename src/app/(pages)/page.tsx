@@ -34,122 +34,100 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
       <section
         className={`text-center py-16 px-4 max-w-4xl mx-auto ${merriweather.className} text-3xl leading-loose`}
       >
-        <p className=" font-bold text-black">
+        <p className="font-bold text-black">
           Psychoterapia trudności funkcjonowania w obszarze myśli, emocji i
           zachowań. Oferuję profesjonalną informację, wsparcie i pomoc.
         </p>
       </section>
+
       <section
         className={`py-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose `}
       >
-        <p className=" font-normal ">
+        <p className="font-normal">
           Terapia poznawczo-behawioralna adresowana jest do osób z zaburzeniami
           depresyjnymi, fobiami, z zaniżoną samooceną. Skuteczna zwłaszcza w
           zaburzeniach lękowych, z atakami paniki, w trudnościach emocjonalnych,
           zaburzeniach obsesyjno-kompulsyjnych, w kryzysach życiowych.
         </p>
-        <p className=" font-normal ">
+        <p className="font-normal">
           Krótkoterminowa. Skoncentrowana na rozwiązaniu problemu, o
           dowiedzionej naukowo skuteczności.
         </p>
+
         <section
           className={`pt-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose `}
         >
-          <p className="font-bold text-2xl">
-            O mnie
-          </p>
-             <p className="pt-2 font-sem">Kompetencje:</p>
+          <p className="font-bold text-2xl">O mnie</p>
+          <p className="pt-2 font-semibold">Kompetencje:</p>
 
-          <p className=" font-normal ">
-            - Certyfikat psychoterapeuty terapii poznawczo-behawioralnej wzbogaconej podejściem
-terapii schematu mindfulness i akceptacji - w duchu dialogu motywującego - nr certyfikatu
-PTTPB 1510
+          <ul className="font-normal">
+            <li>- Certyfikat psychoterapeuty terapii poznawczo-behawioralnej wzbogaconej podejściem terapii schematu mindfulness i akceptacji - w duchu dialogu motywującego - nr certyfikatu PTTPB 1510</li>
+            <li>- ukończone szkolenie akredytowane przez Międzynarodowe Towarzystwo Terapii Schematu (ISST) przygotowujące do certyfikatu terapeuty schematu ISST</li>
+            <li>- Certyfikat specjalisty psychoterapii uzależnień -SP 1356/2017 Jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej.</li>
+          </ul>
+          <p className="pt-2 font-semibold">
+            Swoją pracę poddaję systematycznej superwizji, co gwarantuje jakość
+            i profesjonalizm podejmowanych działań.
           </p>
-          <p className=" font-normal ">
-            - ukończone szkolenie akredytowane przez Międzynarodowe Towarzystwo Terapii Schematu
-(ISST) przygotowujące do certyfikatu terapeuty schematu ISST
+          <p className="pt-2 font-semibold">Doświadczenie zawodowe</p>
+          <ul className="font-normal">
+            <li> Psychoterapia indywidualna</li>
+            <li> Terapia grupowa oraz w społeczności terapeutycznej</li>
+            <li> Treningi interpersonalne (współprowadząca w szkoleniu PTZN Oddz. w Katowicach)</li>
+            <li> Socjoterapia</li>
+          </ul>
+
+          <p className="font-bold text-2xl pt-4">Oferta:</p>
+          <p className="pt-2 font-semibold">
+            Prowadzę terapię indywidualną, konsultacje dla par. Pracuję z osobami dorosłymi oraz młodzieżą powyżej 16 lat.
           </p>
-          <p className=" font-normal ">
-            Certyfikat specjalisty psychoterapii uzależnień -SP 1356/2017
-Jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej.
+          <p className="pt-2 font-semibold">
+            Oferuję profesjonalną psychoterapię, wsparcie i pomoc. Kieruję się ideą pracy opartej na partnerstwie, poszanowaniu autonomii, odpowiedzialności, przy pełnej akceptacji dla wyborów i decyzji osób, które się do mnie zgłaszają.
           </p>
-          <p className=" pt-2 font-sem ">Swoją pracę poddaję systematycznej superwizji, co gwarantuje jakość i profesjonalizm
-podejmowanych działań.</p>
-          <p className="pt-2 font-sem">Doświadczenie zawodowe</p>
-          <p className=" font-normal ">
-            <p className=" font-normal "> Psychoterapia indywidualna
+          <p className="pt-2 font-semibold">Pracuję:</p>
+          <ul className="font-normal">
+            <li> z osobami z zaburzeniami osobowości,</li>
+            <li> z zaburzeniami nastroju (m.in. depresyjne)</li>
+            <li> w kryzysach życiowych, adaptacyjnych, pourazowych</li>
+            <li> uzależnionymi od substancji psychoaktywnych, a także w obszarze uzależnień behawioralnych, czynnościowych</li>
+            <li> ASD, ADHD</li>
+          </ul>
+
+          <p className="pt-2 font-semibold">A także:</p>
+          <ul className="font-normal">
+            <li> w trudnych sytuacjach życiowych uniemożliwiających funkcjonalne rozwiązywanie problemów</li>
+            <li> w konfliktach w relacjach</li>
+            <li> w sytuacji poczucia braku wpływu, kontroli nad istotnymi obszarami życia</li>
+            <li> w trudnościach związanych z aktywnością zawodową (wypalenie zawodowe, konflikty)</li>
+            <li> w sytuacji poczucia bezsilności, niemożności podejmowania działań i samodzielnego rozwiązywania problemów</li>
+          </ul>
+        </section>
+
+        <section
+          className={`px-4 pt-2 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose`}
+        >
+          <p className="font-normal">
+            <b>Konsultacja</b> to pierwsze 1-3 spotkania klienta i psychoterapeuty. Jest to czas, abyśmy wspólnie mogli skonkretyzować problem i wybrać najlepszą dla Ciebie formę pomocy. Podczas konsultacji podejmujemy wspólną decyzję, czy rozpoczynamy terapię. Następnie ustalamy cele i kontrakt.
           </p>
-             <p className=" font-normal "> Terapia grupowa oraz w społeczności terapeutycznej
+          <p className="font-normal pt-4">
+            <b>Psychoterapia</b> ma formę serii regularnych spotkań raz w tygodniu w terminie dostosowanym do możliwości.
           </p>
-             <p className=" font-normal "> Treningi interpersonalne ( współprowadząca w szkoleniu PTZN Oddz. w Katowicach)
+          <p className="font-normal pt-4">
+            Spotkanie indywidualne trwa 50 minut. Cena 190 zł.
           </p>
-            <p className=" font-normal "> Socjoterapia
-          </p>  
-           <p className="font-bold text-2xl"> Oferta:
+          <p className="font-normal pt-4">
+            Spotkanie dla par, rodzinne trwa od 50 do 70 minut. Cena 250 zł.
           </p>
-          <p className=" pt-2 font-sem ">Prowadzę terapię indywidualną, konsultacje dla par.
-Pracuję z osobami dorosłymi oraz młodzieżą powyżej 16 lat.</p>
-           <p className=" pt-2 font-sem ">Oferuję profesjonalną psychoterapię, wsparcie i pomoc. Kieruję się ideą pracy opartej na partnerstwie,
-poszanowaniu autonomii, odpowiedzialności, przy pełnej akceptacji dla wyborów i decyzji osób, które się do
-mnie zgłaszają.</p>
-          <p className=" pt-2 font-sem ">Pracuję:</p>
-            <p className=" font-normal "> z osobami z zaburzeniami osobowości,
+          <p className="font-normal pt-20">
+            Prowadzę konsultacje oraz terapię również on-line. Zapraszam do kontaktu za pośrednictwem Skype : live:.cid.6b72d96fb4d18087
           </p>
-            <p className=" font-normal "> z zaburzeniami nastroju (m.in. depresyjne)
-          </p>
-            <p className=" font-normal "> w kryzysach życiowych, adaptacyjnych, pourazowych
-          </p>
-            <p className=" font-normal "> uzależnionymi od substancji psychoaktywnych, a także w obszarze uzależnień behawioralnych,
-czynnościowych
-          </p>
-            <p className=" font-normal "> ASD, ADHD
-          </p>
-           <p className=" pt-2 font-sem ">A także:</p>
-            
-            <p className=" font-normal "> w trudnych sytuacjach życiowych uniemożliwiających funkcjonalne rozwiązywanie problemów
-          </p>
-          <p className=" font-normal "> w konfliktach w relacjach
-          </p>
-        <p className=" font-normal "> w sytuacji poczucia braku wpływu, kontroli nad istotnymi obszarami życia
-          </p>
-      <p className=" font-normal "> w trudnościach związanych z aktywnością zawodową ( wypalenie zawodowe, konflikty)
-          </p>
-     <p className=" font-normal "> w sytuacji poczucia bezsilności, niemożności podejmowania działań i samodzielnego
-rozwiązywania problemów
-          </p>
-      </section>
-      <section
-        className={`px-4 pt-2 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose`}
-      >
-        <p className=" font-normal ">
-          <b>Konsultacja</b> to pierwsze 1-3 spotkania klienta i
-          psychoterapeuty. Jest to czas, abyśmy wspólnie mogli skonkretyzować
-          problem i wybrać najlepszą dla Ciebie formę pomocy. Podczas
-          konsultacji podejmujemy wspólną decyzję, czy rozpoczynamy terapię.
-          Następnie ustalamy cele i kontrakt.
-        </p>
-        <p className=" font-normal pt-4 ">
-          <b>Psychoterapia</b> ma formę serii regularnych spotkań raz w tygodniu
-          w terminie dostosowanym do możliwości.
-        </p>
-        <p className=" font-normal pt-4 ">
-          Spotkanie indywidualne trwa 50 minut. Cena 190 zł.
-        </p>
-        <p className=" font-normal pt-4 ">
-          Spotkanie dla par, rodzinne trwa od 50 do 70 minut. Cena 250 zł.
-        </p>
-        <p className="font-normal pt-20 ">
-          Prowadzę konsultacje oraz terapię również on - line. Zapraszam do
-          kontaktu za pośrednictwem Skype : live:.cid.6b72d96fb4d18087
-          <p className="font-bold text-2xl">
-            Kontakt:
-          </p>
-        </p>
-      </section>
-          </section>
+          <p className="font-bold text-2xl">Kontakt:</p>
+        </section>
+
       <section className={`py-16 max-w-5xl mx-auto ${merriweather.className}`}>
         <div className="grid grid-cols-2 gap-20">
           <div className="">
@@ -164,8 +142,7 @@ rozwiązywania problemów
             </div>
           </div>
           <div className="text-xl leading-loose">
-            <p className=""></p>W celu umówienia spotkania proszę o kontakt
-            telefoniczny lub email
+            <p className="">W celu umówienia spotkania proszę o kontakt telefoniczny lub email</p>
             <p className="py-4 font-bold">Pracownia Psychoterapii</p>
             <p className="leading-normal font-bold">Poznawczo-Behawioralnej</p>
             <p className="py-4 font-bold">tel: 515 419 680</p>
@@ -179,7 +156,6 @@ rozwiązywania problemów
       <section
         className={`text-center py-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose`}
       >
-       
       </section>
     </section>
   );
