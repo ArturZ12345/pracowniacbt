@@ -149,6 +149,7 @@ rozwiązywania problemówh
           </p>
         </p>
       </section>
+          </section>
       <section className={`py-16 max-w-5xl mx-auto ${merriweather.className}`}>
         <div className="grid grid-cols-2 gap-20">
           <div className="">
