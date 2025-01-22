@@ -171,11 +171,6 @@ export default async function HomePage() {
           odpowiedzialności, przy pełnej akceptacji dla wyborów i decyzji osób,
           które się do mnie zgłaszają.
         </p>
-        <p className=" font-normal py-2">
-          Kieruję się ideą pracy opartej na partnerstwie, poszanowaniu
-          autonomii, odpowiedzialności, przy pełnej akceptacji dla wyborów i
-          decyzji osób, które się do mnie zgłaszają.
-        </p>
         <p className=" font-normal py-2 ">
           Pracuję z osobami z zaburzeniami osobowości, w kryzysach,
           uzależnionymi od substancji psychoaktywnych, a także w obszarze
