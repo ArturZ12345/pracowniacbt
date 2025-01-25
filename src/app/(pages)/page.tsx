@@ -59,30 +59,79 @@ export default async function HomePage() {
           className={`pt-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose `}
         >
           <p className="font-bold text-2xl">
-            Oferuję pomoc osobom mającym trudności:
-          </p>
-
-          <p className=" font-normal ">
-            - w radzeniu sobie ze stresem, napięciem
+            O mnie:
           </p>
           <p className=" font-normal ">
-            - w kryzysach emocjonalnych, nadmiernym lęku, napadach złości
+            Kompetencje:
           </p>
           <p className=" font-normal ">
-            - z obniżonym nastrojem, (np. depresja)
-          </p>
-          <p className=" font-normal ">- w relacjach z innymi,</p>
-          <p className="pt-2 font-sem">a także:</p>
-          <p className=" font-normal ">
-            - z obniżoną samooceną, myślami lub czynami autodestrukcyjnymi
+            - Certyfikat psychoterapeuty terapii poznawczo-behawioralnej wzbogaconej podejściem
+terapii schematu mindfulness i akceptacji - w duchu dialogu motywującego - nr certyfikatu
+PTTPB 151
           </p>
           <p className=" font-normal ">
-            - w zaburzeniach nerwicowych, związanych ze stresem i pod postacią
-            somatyczną (np. zaburzenia obsesyjno-kompulsyjne, lękowe, PTSD)
+            - Ukończone szkolenie akredytowane przez Międzynarodowe Towarzystwo Terapii Schematu
+(ISST) przygotowujące do certyfikatu terapeuty schematu ISST
+          </p>
+          <p className=" font-normal "> 
+            - Certyfikat specjalisty psychoterapii uzależnień -SP 1356/2017
+Jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej
+          </p>
+           <p className=" font-normal ">Swoją pracę poddaję systematycznej superwizji, co gwarantuje jakość i profesjonalizm
+podejmowanych działań.
           </p>
           <p className=" font-normal ">
-            - udzielam także pomocy w zakresie zaburzeń osobowości oraz
-            uzależnień.
+            Doświadczenie zawodowe:
+          </p>
+          <p className=" font-normal ">
+            - Psychoterapia indywidualna
+          </p>
+          <p className=" font-normal ">
+            - Terapia grupowa oraz w społeczności terapeutycznej
+          </p>
+          <p className=" font-normal ">
+            - Treningi interpersonalne ( współprowadząca w szkoleniu PTZN Oddz. w Katowicach)
+          </p>
+          <p className=" font-normal ">
+            - Socjoterapia
+          </p>
+<p className="font-bold text-2xl">
+            Oferta:
+          </p>
+          <p className=" pt-2 font-sem ">Prowadzę terapię indywidualną, konsultacje dla par.
+Pracuję z osobami dorosłymi oraz młodzieżą powyżej 16 lat.</p>
+           <p className=" pt-2 font-sem ">Oferuję profesjonalną psychoterapię, wsparcie i pomoc. Kieruję się ideą pracy opartej na partnerstwie,
+poszanowaniu autonomii, odpowiedzialności, przy pełnej akceptacji dla wyborów i decyzji osób, które się do
+mnie zgłaszają.</p>
+          <p className=" pt-2 font-sem ">Pracuję:</p>
+            <p className=" font-normal ">
+              - z osobami z zaburzeniami osobowości,
+          </p>
+            <p className=" font-normal ">
+              - z zaburzeniami nastroju (m.in. depresyjne)
+          </p>
+            <p className=" font-normal ">
+              - w kryzysach życiowych, adaptacyjnych, pourazowych
+          </p>
+            <p className=" font-normal ">
+              - uzależnionymi od substancji psychoaktywnych, a także w obszarze uzależnień behawioralnych,
+czynnościowych
+          </p>
+            <p className=" font-normal ">
+              - ASD, ADHD
+          </p>
+           <p className=" pt-2 font-sem ">A także:</p>
+            
+            <p className=" font-normal ">- w trudnych sytuacjach życiowych uniemożliwiających funkcjonalne rozwiązywanie problemów
+          </p>
+          <p className=" font-normal ">- w konfliktach w relacjach
+          </p>
+        <p className=" font-normal ">- w sytuacji poczucia braku wpływu, kontroli nad istotnymi obszarami życia
+          </p>
+      <p className=" font-normal ">- w trudnościach związanych z aktywnością zawodową ( wypalenie zawodowe, konflikty)
+          </p>
+     <p className=" font-normal ">- w sytuacji poczucia bezsilności, niemożności podejmowania działań i samodzielnego
+rozwiązywania problemów
           </p>
         </section>
       </section>
@@ -125,6 +174,9 @@ export default async function HomePage() {
             </div>
           </div>
           <div className="text-xl leading-loose">
+            <p className="font-bold text-2xl">
+            Kontakt:
+          </p>
             <p className=""></p>W celu umówienia spotkania proszę o kontakt
             telefoniczny lub email
             <p className="py-4 font-bold">Pracownia Psychoterapii</p>
