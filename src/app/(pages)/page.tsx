@@ -192,42 +192,6 @@ rozwiązywania problemów
       <section
         className={`text-center py-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose`}
       >
-        <p className=" font-normal">
-          Jestem <b>certyfikowanym psychoterapeutą</b> pracującym w nurcie
-          terapii poznawczo-behawioralnej wzbogaconej podejściem terapii
-          schematu, certyfikatu PTTPB 1510. mindfulness i akceptacji - w duchu
-          dialogu motywującego - <b>nr certyfikatu PTTPB 1510</b>
-        </p>
-        <p className=" font-normal ">
-          Posiadam także certyfikat specjalisty psychoterapii uzależnień -
-          <b>SP 1356/2017</b>.
-        </p>
-        <p className=" font-normal ">
-          Jestem członkiem{" "}
-          <b>Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej.</b>
-        </p>
-        <p className=" font-normal ">
-          Swoją pracę poddaję systematycznej superwizji, co gwarantuje jakość i
-          profesjonalizm podejmowanych działań.
-        </p>
-      </section>
-      <section
-        className={`text-center py-4 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose`}
-      >
-        <p className=" font-normal py-2 ">
-          Prowadzę terapię indywidualną, konsultacje dla par.
-        </p>
-        <p className=" font-normal py-2">
-          Oferuję profesjonalną psychoterapię, wsparcie i pomoc. Kieruję się
-          ideą pracy opartej na partnerstwie, poszanowaniu autonomii,
-          odpowiedzialności, przy pełnej akceptacji dla wyborów i decyzji osób,
-          które się do mnie zgłaszają.
-        </p>
-        <p className=" font-normal py-2 ">
-          Pracuję z osobami z zaburzeniami osobowości, w kryzysach,
-          uzależnionymi od substancji psychoaktywnych, a także w obszarze
-          uzależnień behawioralnych, czynnościowych.
-        </p>
       </section>
     </section>
   );
