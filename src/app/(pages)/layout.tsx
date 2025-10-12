@@ -23,7 +23,7 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta
           name="keywords"
-          content="Depresja, Zaburzenia lękowe, Natręctwa, Poczucie własnej wartości, Rozwój osobisty, Relacje, Kryzysy, Uzależnienia, Zaburzenia osobowości, Psychoterapia Bielsko-Biała"
+          content="Ewa Zając, Depresja, Zaburzenia lękowe, Natręctwa, Poczucie własnej wartości, Rozwój osobisty, Relacje, Kryzysy, Uzależnienia, Zaburzenia osobowości, Psychoterapia Bielsko-Biała,Zając, Ewa Zając Łękawa, Łękawa"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
