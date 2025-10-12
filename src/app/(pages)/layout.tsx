@@ -23,7 +23,7 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta
           name="keywords"
-          content="Uzależnienia, Zaburzenia osobowości, Psychoterapia Bielsko-Biała"
+          content="Depresja, Zaburzenia lękowe, Natręctwa, Poczucie własnej wartości, Rozwój osobisty, Relacje, Kryzysy, Uzależnienia, Zaburzenia osobowości, Psychoterapia Bielsko-Biała"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
