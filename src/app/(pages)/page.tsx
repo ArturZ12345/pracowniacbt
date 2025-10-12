@@ -46,10 +46,15 @@ export default async function HomePage() {
         className={`py-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose `}
       >
         <p className="">
-          Terapia poznawczo-behawioralna adresowana jest do osób z zaburzeniami
-          depresyjnymi, fobiami, z zaniżoną samooceną. Skuteczna zwłaszcza w
-          zaburzeniach lękowych, z atakami paniki, w trudnościach emocjonalnych,
-          zaburzeniach obsesyjno-kompulsyjnych, w kryzysach życiowych.
+         W Pracowni Psychoterapii Poznawczo-Behawioralnej zapewniam profesjonalne
+wsparcie psychiczne, niezależnie od rodzaju trudności, z jakimi się zmagasz.
+Prowadzę różnorodne formy terapii, dostosowane zarówno do indywidualnych
+problemów, jak i sytuacji rodzinnych czy relacyjnych. Każdy rodzaj spotkań ma na
+celu nie tylko złagodzenie objawów, lecz także głębsze zrozumienie źródeł
+trudności i skuteczne radzenie sobie z nimi w codziennym życiu. W każdym
+przypadku zapewniam bezpieczną przestrzeń do pracy nad trudnościami
+emocjonalnymi, stresem czy kryzysami życiowymi, poza tym daję wsparcie i szansę
+na rozwój umiejętności interpersonalnych w kontakcie z innymi ludźmi.
         </p>
         <p className=" font-normal ">
           Krótkoterminowa. Skoncentrowana na rozwiązaniu problemu, o
