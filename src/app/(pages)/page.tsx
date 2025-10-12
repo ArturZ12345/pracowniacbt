@@ -55,10 +55,7 @@ trudności i skuteczne radzenie sobie z nimi w codziennym życiu. W każdym
 przypadku zapewniam bezpieczną przestrzeń do pracy nad trudnościami
 emocjonalnymi, stresem czy kryzysami życiowymi, poza tym daję wsparcie i szansę
 na rozwój umiejętności interpersonalnych w kontakcie z innymi ludźmi.
-        </p>
-        <p className=" font-normal ">
-          Krótkoterminowa. Skoncentrowana na rozwiązaniu problemu, o
-          dowiedzionej naukowo skuteczności.
+Krótkoterminowa. Skoncentrowana na rozwiązaniu problemu, o dowiedzionej naukowo skuteczności.
         </p>
         <section
           className={`pt-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose `}
