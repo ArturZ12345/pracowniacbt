@@ -67,9 +67,6 @@ na rozwój umiejętności interpersonalnych w kontakcie z innymi ludźmi.
             O mnie:
           </p>
           <p className=" font-normal ">
-            Kompetencje:
-          </p>
-          <p className=" font-normal ">
             - Certyfikat psychoterapeuty terapii poznawczo-behawioralnej wzbogaconej podejściem
 terapii schematu mindfulness i akceptacji - w duchu dialogu motywującego - nr certyfikatu
 PTTPB 151
@@ -105,9 +102,12 @@ podejmowanych działań.
           </p>
           <p className=" pt-2 font-sem ">Prowadzę terapię indywidualną, konsultacje dla par.
 Pracuję z osobami dorosłymi oraz młodzieżą powyżej 16 lat.</p>
-           <p className=" pt-2 font-sem ">Oferuję profesjonalną psychoterapię, wsparcie i pomoc. Kieruję się ideą pracy opartej na partnerstwie,
-poszanowaniu autonomii, odpowiedzialności, przy pełnej akceptacji dla wyborów i decyzji osób, które się do
-mnie zgłaszają.</p>
+           <p className=" pt-2 font-sem ">W pracy psychoterapeutycznej stawiam na skuteczność oraz bezpieczeństwo,.
+Skupiam się na psychoterapii w nurcie poznawczo-behawioralnym (CBT), na terapii
+schematu, ale oferuję również wsparcie w zakresie terapii uzależnień, zaburzeń
+lękowych czy kryzysów rodzinnych. Głównym celem jest nie tylko łagodzenie
+objawów, lecz też głębsze zrozumienie ich źródeł, dzięki czemu pacjent zyskuje
+narzędzia do radzenia sobie w codziennym życiu.</p>
           <p className=" pt-2 font-sem ">Pracuję:</p>
             <p className=" font-normal ">
               - z osobami z zaburzeniami osobowości,
@@ -162,7 +162,7 @@ rozwiązywania problemów
         </p>
         <p className="font-normal pt-20 ">
           Prowadzę konsultacje oraz terapię również on - line. Zapraszam do
-          kontaktu za pośrednictwem Skype : live:.cid.6b72d96fb4d18087
+          kontaktu za pośrednictwem Teams.
         </p>
       </section>
       <section className={`py-16 max-w-5xl mx-auto ${merriweather.className}`}>
