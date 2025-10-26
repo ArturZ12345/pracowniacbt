@@ -26,7 +26,7 @@ export default async function HomePage() {
               <span className="block p-[5%]"></span>
               <div className="flex flex-col items-center">
                 <span className="block z-10">Pracownia psychoterapii</span>
-                <span className="block z-10 text-5xl">Ewa Zając-Łękawa</span>
+                <span className="block z-10 pt-8">Ewa Zając-Łękawa</span>
                  <span className="block w-full max-w-lg border-b-[16px] border-solid border-[#69A297]"></span>
               </div>
               <span className="block mt-2 pt-20">Psychoterapia poznawczo-behawioralna</span>
@@ -96,16 +96,16 @@ Doświadczenie pracy w różnych środowiskach  miało znaczenie, dało niebagat
             Doświadczenie zawodowe:
           </p>
           <p className=" font-normal ">
-            - Psychoterapia indywidualna
+            - Prowadzenie psychoterapii indywidualnej
           </p>
           <p className=" font-normal ">
-            - Terapia grupowa oraz w społeczności terapeutycznej
+            - Psychoterapeuta w terapii grupowej oraz w społeczności terapeutycznej
           </p>
           <p className=" font-normal ">
-            - Treningi interpersonalne ( współprowadząca w szkoleniu PTZN Oddz. w Katowicach)
+            - Co-trener treningów interpersonalnych (w szkoleniu PTZN Oddz. w Katowicach)
           </p>
           <p className=" font-normal ">
-            - Socjoterapia
+            - Terapeuta z socjoterapii dzieci i młopdzieży
           </p>
 <p className="font-bold text-2xl pt-8 pb-4">
             Oferta:
