@@ -49,19 +49,22 @@ export default async function HomePage() {
          W Pracowni Psychoterapii Poznawczo-Behawioralnej zapewniam profesjonalne
 wsparcie psychiczne, niezależnie od rodzaju trudności, z jakimi się zmagasz.
 Prowadzę różnorodne formy terapii, dostosowane zarówno do indywidualnych
-problemów, jak i sytuacji rodzinnych czy relacyjnych. Każdy rodzaj spotkań ma na
-celu nie tylko złagodzenie objawów, lecz także głębsze zrozumienie źródeł
-trudności i skuteczne radzenie sobie z nimi w codziennym życiu. W każdym
+problemów, jak i sytuacji rodzinnych czy relacyjnych. W każdym
 przypadku zapewniam bezpieczną przestrzeń do pracy nad trudnościami
 emocjonalnymi, stresem czy kryzysami życiowymi, poza tym daję wsparcie i szansę
 na rozwój umiejętności interpersonalnych w kontakcie z innymi ludźmi.
-Krótkoterminowa. Skoncentrowana na rozwiązaniu problemu, o dowiedzionej naukowo skuteczności.
         </p>
         <section
-          className={`pt-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose `}
+          className={`pt-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose space-y-6`}
         >
           <p className="font-bold text-2xl">
             O mnie:
+          </p>
+          <p className=" font-normal ">
+           Swoją przygodę z psychoterapią rozpoczęłam od rozwoju osobistego.  Poznanie siebie, swoich zasobów i ograniczeń, uważam jest niezbędne, gdy myślimy o  pracy związanej z pomaganiem drugiej osobie. 
+Następnym krokiem było zdobycie profesjonalnych uprawnień zawodowych. 
+
+     Certyfikat terapeuty ma znaczenie, ponieważ potwierdza ukończenie specjalistycznego szkolenia, zweryfikowanie umiejętności i wiedzy terapeuty, a także świadczy o doświadczeniu w zawodzie. Dla pacjentów jest to gwarancja kompetencji, a dla terapeuty oznacza możliwość samodzielnej praktyki i dalszego rozwoju zawodowego.
           </p>
           <p className=" font-normal ">
             - Certyfikat psychoterapeuty terapii poznawczo-behawioralnej wzbogaconej podejściem
@@ -79,6 +82,11 @@ Jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej
            <p className=" font-normal ">Swoją pracę poddaję systematycznej superwizji, co gwarantuje jakość i profesjonalizm
 podejmowanych działań.
           </p>
+
+          <p className=" font-normal "> Kiedyś, dawno, na początku, ktoś zapytał mnie : jak myślisz, co ma znaczenie w byciu dobrym pomagaczem, jaką masz hierarchię? 
+Pojawił się dylemat: wiedza, inteligencja....a może  empatia, współczucie, zrozumienie? 
+Doświadczenie pracy w różnych środowiskach  miało znaczenie, dało niebagatelną perspektywę,  wszystko to, co zbudowało moje kompetencje w pracy w relacji z drugim człowiekiem.
+            </p>
           <p className=" font-normal ">
             Doświadczenie zawodowe:
           </p>
