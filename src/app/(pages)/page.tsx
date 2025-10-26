@@ -66,6 +66,9 @@ Następnym krokiem było zdobycie profesjonalnych uprawnień zawodowych.
 
      Certyfikat terapeuty ma znaczenie, ponieważ potwierdza ukończenie specjalistycznego szkolenia, zweryfikowanie umiejętności i wiedzy terapeuty, a także świadczy o doświadczeniu w zawodzie. Dla pacjentów jest to gwarancja kompetencji, a dla terapeuty oznacza możliwość samodzielnej praktyki i dalszego rozwoju zawodowego.
           </p>
+          <p className="font-bold text-2xl pt-6 pb-4">
+            Certyfikaty:
+          </p>
           <p className=" font-normal ">
             - Certyfikat psychoterapeuty terapii poznawczo-behawioralnej wzbogaconej podejściem
 terapii schematu mindfulness i akceptacji - w duchu dialogu motywującego - nr certyfikatu
@@ -83,11 +86,11 @@ Jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej
 podejmowanych działań.
           </p>
 
-          <p className=" font-normal "> Kiedyś, dawno, na początku, ktoś zapytał mnie : jak myślisz, co ma znaczenie w byciu dobrym pomagaczem, jaką masz hierarchię? 
+          <p className=" font-normal pt-6 pb-4"> Kiedyś, dawno, na początku, ktoś zapytał mnie : jak myślisz, co ma znaczenie w byciu dobrym pomagaczem, jaką masz hierarchię? 
 Pojawił się dylemat: wiedza, inteligencja....a może  empatia, współczucie, zrozumienie? 
 Doświadczenie pracy w różnych środowiskach  miało znaczenie, dało niebagatelną perspektywę,  wszystko to, co zbudowało moje kompetencje w pracy w relacji z drugim człowiekiem.
             </p>
-          <p className=" font-normal ">
+          <p className=" font-normal pt-6 pb-4">
             Doświadczenie zawodowe:
           </p>
           <p className=" font-normal ">
