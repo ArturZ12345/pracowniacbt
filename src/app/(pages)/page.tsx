@@ -113,8 +113,8 @@ schematu, ale oferuję również wsparcie w zakresie terapii uzależnień, zabur
 lękowych czy kryzysów rodzinnych. Głównym celem jest nie tylko łagodzenie
 objawów, lecz też głębsze zrozumienie ich źródeł, dzięki czemu pacjent zyskuje
 narzędzia do radzenia sobie w codziennym życiu.</p>
-          <p className=" pt-2 font-sem ">Pracuję:</p>
-            <p className=" font-normal pt-6 pb-4">
+          <p className=" pt-2 font-sem pt-6 pb-4">Pracuję:</p>
+            <p className=" font-normal">
               - z osobami z zaburzeniami osobowości,
           </p>
             <p className=" font-normal ">
