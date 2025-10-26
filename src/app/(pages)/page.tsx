@@ -27,6 +27,8 @@ export default async function HomePage() {
               <div className="flex flex-col items-center">
                 <span className="block z-10">Pracownia psychoterapii</span>
                 <span className="block z-10">Ewa Zając-Łękawa</span>
+                 <span className="block w-full max-w-lg border-b-[16px] border-solid border-[#69A297]"></span>
+              </div>
               <span className="block mt-2 pt-20">Psychoteriapia poznawczo-behawioralna</span>
               <span className="block mt-2 pt-8">Psychoterapia uzależnień</span>
             </h1>
