@@ -26,10 +26,10 @@ export default async function HomePage() {
               <span className="block p-[5%]"></span>
               <div className="flex flex-col items-center">
                 <span className="block z-10">Pracownia psychoterapii</span>
-                <span className="block z-10">Ewa Zając-Łękawa</span>
+                <span className="block z-10 text-5xl">Ewa Zając-Łękawa</span>
                  <span className="block w-full max-w-lg border-b-[16px] border-solid border-[#69A297]"></span>
               </div>
-              <span className="block mt-2 pt-20">Psychoteriapia poznawczo-behawioralna</span>
+              <span className="block mt-2 pt-20">Psychoterapia poznawczo-behawioralna</span>
               <span className="block mt-2 pt-8">Psychoterapia uzależnień</span>
             </h1>
           </div>
@@ -81,7 +81,8 @@ PTTPB 151
           </p>
           <p className=" font-normal "> 
             - Certyfikat specjalisty psychoterapii uzależnień -SP 1356/2017
-Jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej
+          </p>
+           <p className=" font-normal ">Jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej
           </p>
            <p className=" font-normal ">Swoją pracę poddaję systematycznej superwizji, co gwarantuje jakość i profesjonalizm
 podejmowanych działań.
@@ -91,7 +92,7 @@ podejmowanych działań.
 Pojawił się dylemat: wiedza, inteligencja....a może  empatia, współczucie, zrozumienie? 
 Doświadczenie pracy w różnych środowiskach  miało znaczenie, dało niebagatelną perspektywę,  wszystko to, co zbudowało moje kompetencje w pracy w relacji z drugim człowiekiem.
             </p>
-          <p className=" font-normal pt-6 pb-4">
+          <p className=" font-bold text-2xl pt-6 pb-4">
             Doświadczenie zawodowe:
           </p>
           <p className=" font-normal ">
