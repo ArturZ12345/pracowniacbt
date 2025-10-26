@@ -55,7 +55,7 @@ emocjonalnymi, stresem czy kryzysami życiowymi, poza tym daję wsparcie i szans
 na rozwój umiejętności interpersonalnych w kontakcie z innymi ludźmi.
         </p>
         <section
-          className={`pt-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose space-y-6`}
+          className={`pt-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose `}
         >
           <p className="font-bold text-2xl pt-8 pb-4">
             O mnie:
