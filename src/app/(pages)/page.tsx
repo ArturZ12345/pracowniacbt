@@ -57,7 +57,7 @@ na rozwój umiejętności interpersonalnych w kontakcie z innymi ludźmi.
         <section
           className={`pt-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose space-y-6`}
         >
-          <p className="font-bold text-2xl">
+          <p className="font-bold text-2xl pt-8 pb-4">
             O mnie:
           </p>
           <p className=" font-normal ">
@@ -102,7 +102,7 @@ Doświadczenie pracy w różnych środowiskach  miało znaczenie, dało niebagat
           <p className=" font-normal ">
             - Socjoterapia
           </p>
-<p className="font-bold text-2xl">
+<p className="font-bold text-2xl pt-8 pb-4">
             Oferta:
           </p>
           <p className=" pt-2 font-sem ">Prowadzę terapię indywidualną, konsultacje dla par.
@@ -114,7 +114,7 @@ lękowych czy kryzysów rodzinnych. Głównym celem jest nie tylko łagodzenie
 objawów, lecz też głębsze zrozumienie ich źródeł, dzięki czemu pacjent zyskuje
 narzędzia do radzenia sobie w codziennym życiu.</p>
           <p className=" pt-2 font-sem ">Pracuję:</p>
-            <p className=" font-normal ">
+            <p className=" font-normal pt-6 pb-4">
               - z osobami z zaburzeniami osobowości,
           </p>
             <p className=" font-normal ">
@@ -130,7 +130,7 @@ czynnościowych
             <p className=" font-normal ">
               - ASD, ADHD
           </p>
-           <p className=" pt-2 font-sem ">A także:</p>
+           <p className=" pt-2 font-sem pt-8 pb-4">A także: </p>
             
             <p className=" font-normal ">- w trudnych sytuacjach życiowych uniemożliwiających funkcjonalne rozwiązywanie problemów
           </p>
