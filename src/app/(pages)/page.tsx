@@ -73,7 +73,7 @@ Następnym krokiem było zdobycie profesjonalnych uprawnień zawodowych.
           <p className=" font-normal ">
             - Certyfikat psychoterapeuty terapii poznawczo-behawioralnej wzbogaconej podejściem
 terapii schematu mindfulness i akceptacji - w duchu dialogu motywującego - nr certyfikatu
-PTTPB 151
+PTTPB 1510
           </p>
           <p className=" font-normal ">
             - Ukończone szkolenie akredytowane przez Międzynarodowe Towarzystwo Terapii Schematu
