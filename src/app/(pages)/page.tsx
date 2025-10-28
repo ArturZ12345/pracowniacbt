@@ -38,10 +38,6 @@ export default async function HomePage() {
       <section
         className={`text-center py-16 px-4 max-w-4xl mx-auto ${merriweather.className} text-3xl leading-loose`}
       >
-        <p className=" font-bold text-black">
-          Psychoterapia trudności funkcjonowania w obszarze myśli, emocji i
-          zachowań. Oferuję profesjonalną informację, wsparcie i pomoc.
-        </p>
       </section>
       <section
         className={`py-16 px-4 max-w-5xl mx-auto ${merriweather.className} text-xl leading-loose `}
