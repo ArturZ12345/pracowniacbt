@@ -101,16 +101,16 @@ Doświadczenie pracy w różnych środowiskach  miało znaczenie, dało niebagat
             - Co-trener treningów interpersonalnych (w szkoleniu PTZN Oddz. w Katowicach)
           </p>
           <p className=" font-normal ">
-            - Terapeuta z socjoterapii dzieci i młopdzieży
+            - Terapeuta socjoterapii dzieci i młodzieży
           </p>
 <p className="font-bold text-2xl pt-8 pb-4">
             Oferta:
           </p>
           <p className=" pt-2 font-sem ">Prowadzę terapię indywidualną, konsultacje dla par.
 Pracuję z osobami dorosłymi oraz młodzieżą powyżej 16 lat.</p>
-           <p className=" pt-2 font-sem ">W pracy psychoterapeutycznej stawiam na skuteczność oraz bezpieczeństwo,.
+           <p className=" pt-2 font-sem ">W pracy psychoterapeutycznej stawiam na skuteczność oraz bezpieczeństwo.
 Skupiam się na psychoterapii w nurcie poznawczo-behawioralnym (CBT), na terapii
-schematu, ale oferuję również wsparcie w zakresie terapii uzależnień, zaburzeń
+schematu. Oferuję również wsparcie w zakresie terapii uzależnień, zaburzeń
 lękowych czy kryzysów rodzinnych. Głównym celem jest nie tylko łagodzenie
 objawów, lecz też głębsze zrozumienie ich źródeł, dzięki czemu pacjent zyskuje
 narzędzia do radzenia sobie w codziennym życiu.</p>
