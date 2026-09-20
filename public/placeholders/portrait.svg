@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 550" width="430" height="550" role="img" aria-label="Placeholder portretu">
+  <defs>
+    <linearGradient id="p1" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#FFEAE0"/>
+      <stop offset="60%" stop-color="#F0C7B6"/>
+      <stop offset="100%" stop-color="#C98F7E"/>
+    </linearGradient>
+    <filter id="s2"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+  <rect width="430" height="550" fill="url(#p1)"/>
+  <g filter="url(#s2)" opacity="0.5">
+    <ellipse cx="120" cy="120" rx="150" ry="130" fill="#FFF2EB"/>
+    <ellipse cx="350" cy="470" rx="160" ry="140" fill="#FF6556" opacity="0.35"/>
+  </g>
+  <g fill="none" stroke="#372824" stroke-opacity="0.38" stroke-width="2">
+    <circle cx="215" cy="228" r="66"/>
+    <path d="M96 430c0-66 53-118 119-118s119 52 119 118"/>
+  </g>
+  <text x="215" y="506" text-anchor="middle" fill="#372824" fill-opacity="0.45" font-family="Georgia, serif" font-size="15" letter-spacing="4">PLACEHOLDER — PORTRET</text>
+</svg>
