@@ -56,87 +56,82 @@ export default function HomePage() {
       {/* ——— HERO ——— */}
       <section
         id="top"
-        className="on-dark relative overflow-hidden rounded-b-[20px] bg-espresso"
+        className="on-dark relative flex min-h-[92vh] items-end overflow-hidden rounded-b-[20px] bg-espresso pb-16 pt-36 sm:pb-24 lg:min-h-screen"
       >
-        <div className="container grid items-center gap-12 pb-20 pt-32 lg:min-h-screen lg:grid-cols-12 lg:gap-16 lg:pb-24 lg:pt-28">
-          <div className="lg:col-span-7">
-            <p
-              className="eyebrow animate-rise-in text-peach"
-              style={{ animationDelay: "120ms" }}
-            >
-              Bielsko-Biała
-            </p>
+        <Image
+          src="/zdjecia/hero-rozmowa.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="animate-drift-slow object-cover object-[center_38%]"
+        />
+        {/* Przyciemnienie pod tekstem — pionowy gradient plus zagęszczenie od lewej,
+            żeby nagłówek czytał się niezależnie od jasności zdjęcia */}
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 bg-gradient-to-t from-espresso via-espresso/85 to-espresso/55"
+        />
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 bg-gradient-to-r from-espresso/80 via-espresso/30 to-transparent"
+        />
 
-            <h1 className="mt-6 font-display text-peach">
-              <span
-                className="block animate-rise-in text-[2.6rem] leading-[1.05] sm:text-6xl lg:text-[4.2rem] xl:text-[4.8rem]"
-                style={{ animationDelay: "220ms" }}
-              >
-                Pracownia psychoterapii
-              </span>
-              <span
-                className="mt-2 block animate-rise-in text-[2.6rem] italic leading-[1.05] sm:text-6xl lg:text-[4.2rem] xl:text-[4.8rem]"
-                style={{ animationDelay: "340ms" }}
-              >
-                Ewa Zając-Łękawa
-              </span>
-            </h1>
+        <div className="container relative z-10">
+          <p
+            className="eyebrow animate-rise-in text-peach"
+            style={{ animationDelay: "120ms" }}
+          >
+            Bielsko-Biała
+          </p>
 
+          <h1 className="mt-6 font-display text-peach">
             <span
-              aria-hidden="true"
-              className="mt-8 block h-[6px] w-full max-w-[420px] origin-left animate-grow-x rounded-full bg-coral"
-              style={{ animationDelay: "560ms" }}
-            />
-
-            <div
-              className="mt-8 animate-rise-in space-y-1 font-display text-xl text-peach/90 sm:text-2xl lg:text-[1.75rem]"
-              style={{ animationDelay: "660ms" }}
+              className="block animate-rise-in text-[2.6rem] leading-[1.05] sm:text-6xl lg:text-7xl xl:text-[5.2rem]"
+              style={{ animationDelay: "220ms" }}
             >
-              <p>Psychoterapia poznawczo-behawioralna</p>
-              <p>Psychoterapia uzależnień</p>
-            </div>
-
-            <div
-              className="mt-12 flex animate-rise-in flex-col gap-4 sm:flex-row"
-              style={{ animationDelay: "780ms" }}
+              Pracownia psychoterapii
+            </span>
+            <span
+              className="mt-2 block animate-rise-in text-[2.6rem] italic leading-[1.05] sm:text-6xl lg:text-7xl xl:text-[5.2rem]"
+              style={{ animationDelay: "340ms" }}
             >
-              <a href={`tel:${PHONE.replace(/\s/g, "")}`} className="btn-coral">
-                <Phone className="h-4 w-4" aria-hidden="true" />
-                Umów wizytę
-              </a>
-              <a href="#oferta" className="btn-outline-cream">
-                Poznaj ofertę
-              </a>
-            </div>
+              Ewa Zając-Łękawa
+            </span>
+          </h1>
+
+          <span
+            aria-hidden="true"
+            className="mt-8 block h-[6px] w-full max-w-[420px] origin-left animate-grow-x rounded-full bg-coral"
+            style={{ animationDelay: "560ms" }}
+          />
+
+          <div
+            className="mt-8 animate-rise-in space-y-1 font-display text-xl text-peach sm:text-2xl lg:text-[1.75rem]"
+            style={{ animationDelay: "660ms" }}
+          >
+            <p>Psychoterapia poznawczo-behawioralna</p>
+            <p>Psychoterapia uzależnień</p>
           </div>
 
-          {/* Zdjęcie w natywnych proporcjach 2:3 — bez kadrowania i bez skalowania w górę */}
-          <figure
-            className="animate-fade-in lg:col-span-5"
-            style={{ animationDelay: "420ms" }}
+          <div
+            className="mt-12 flex animate-rise-in flex-col gap-4 sm:flex-row"
+            style={{ animationDelay: "780ms" }}
           >
-            <div className="relative aspect-[2/3] w-full overflow-hidden rounded-[10px] lg:max-h-[74vh]">
-              <Image
-                src="/zdjecia/hero-rozmowa.jpg"
-                alt="Dwie osoby przy stole podczas spokojnej rozmowy, jedna z nich trzyma w dłoniach kubek"
-                fill
-                priority
-                sizes="(max-width: 1024px) 100vw, 40vw"
-                className="object-cover"
-              />
-              {/* Delikatne ocieplenie, żeby chłodne światło zdjęcia zgrało się z paletą */}
-              <span
-                aria-hidden="true"
-                className="absolute inset-0 bg-gradient-to-t from-espresso/45 via-transparent to-espresso/15 mix-blend-multiply"
-              />
-            </div>
-          </figure>
+            <a href={`tel:${PHONE.replace(/\s/g, "")}`} className="btn-coral">
+              <Phone className="h-4 w-4" aria-hidden="true" />
+              Umów wizytę
+            </a>
+            <a href="#oferta" className="btn-outline-cream">
+              Poznaj ofertę
+            </a>
+          </div>
         </div>
 
         <a
           href="#wstep"
           aria-label="Przewiń do treści"
-          className="absolute bottom-8 right-6 z-10 hidden text-peach/80 transition-colors hover:text-coral lg:right-10 lg:block"
+          className="absolute bottom-10 right-6 z-10 hidden text-peach transition-colors hover:text-coral lg:right-12 lg:block"
         >
           <ArrowDown className="h-7 w-7 animate-cue-bounce" aria-hidden="true" />
         </a>
@@ -163,31 +158,12 @@ export default function HomePage() {
       </section>
 
       {/* ——— O MNIE ——— */}
-      <section id="o-mnie" className="bg-peach py-24 sm:py-32">
-        <div className="container grid items-start gap-14 lg:grid-cols-12 lg:gap-20">
-          <figure
-            data-reveal
-            className="group relative lg:col-span-5 lg:sticky lg:top-32"
-          >
-            <div className="relative aspect-[430/550] w-full overflow-hidden rounded-[10px]">
-              <Image
-                src="/placeholders/portrait.svg"
-                alt="Ewa Zając-Łękawa — miejsce na zdjęcie portretowe"
-                fill
-                sizes="(max-width: 1024px) 100vw, 40vw"
-                className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
-              />
-              <span
-                aria-hidden="true"
-                className="pointer-events-none absolute inset-x-0 bottom-[-100%] h-full rounded-[10px] bg-gradient-to-b from-coral/0 to-coral/80 transition-all duration-500 ease-out group-hover:bottom-0"
-              />
-            </div>
-          </figure>
-
-          <div className="lg:col-span-7">
+      <section id="o-mnie" className="scroll-mt-24 bg-peach py-24 sm:py-32">
+        <div className="container max-w-4xl">
+          <div>
             <h2
               data-reveal
-              className="font-display text-3xl text-espresso sm:text-4xl"
+              className="font-display text-3xl font-semibold text-coral-ink sm:text-4xl"
             >
               O mnie:
             </h2>
@@ -213,7 +189,7 @@ export default function HomePage() {
             <div id="certyfikaty" className="mt-16 scroll-mt-28">
               <h2
                 data-reveal
-                className="font-display text-3xl text-espresso sm:text-4xl"
+                className="font-display text-3xl font-semibold text-coral-ink sm:text-4xl"
               >
                 Certyfikaty:
               </h2>
@@ -290,18 +266,15 @@ export default function HomePage() {
           >
             Doświadczenie zawodowe:
           </h2>
-          <ul className="mt-14 grid gap-px overflow-hidden rounded-[10px] bg-espresso/15 sm:grid-cols-2">
+          <ul className="mt-14 grid gap-px overflow-hidden rounded-[10px] bg-espresso/25 sm:grid-cols-2">
             {DOSWIADCZENIE.map((item, i) => (
               <li
                 key={item}
                 data-reveal
                 style={delay(i * 90)}
-                className="group bg-cream p-8 transition-colors duration-500 hover:bg-peach sm:p-10"
+                className="flex items-center bg-cream p-8 transition-colors duration-500 hover:bg-peach sm:min-h-[132px] sm:p-10"
               >
-                <span className="font-display text-2xl text-coral-ink">
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-                <p className="mt-4 text-[1.0625rem] leading-[1.75] text-espresso/85">
+                <p className="text-[1.0625rem] leading-[1.75] text-espresso/85">
                   {item}
                 </p>
               </li>
@@ -321,19 +294,6 @@ export default function HomePage() {
               >
                 Oferta:
               </h2>
-              <div
-                data-reveal
-                style={delay(120)}
-                className="relative mt-10 aspect-[3/4] w-full overflow-hidden rounded-[10px]"
-              >
-                <Image
-                  src="/zdjecia/gabinet-2.jpg"
-                  alt="Gabinet: fotele i kanapa wokół niskiego stolika"
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 40vw"
-                  className="object-cover"
-                />
-              </div>
             </div>
             <div className="space-y-7 text-[1.0625rem] leading-[1.85] text-espresso/85 sm:text-lg lg:col-span-7">
               <p data-reveal>
@@ -357,7 +317,7 @@ export default function HomePage() {
             <div>
               <h3
                 data-reveal
-                className="font-display text-3xl text-coral-ink sm:text-4xl"
+                className="font-display text-3xl font-semibold text-coral-ink sm:text-4xl"
               >
                 Pracuję:
               </h3>
@@ -377,7 +337,7 @@ export default function HomePage() {
             <div>
               <h3
                 data-reveal
-                className="font-display text-3xl text-coral-ink sm:text-4xl"
+                className="font-display text-3xl font-semibold text-coral-ink sm:text-4xl"
               >
                 A także:
               </h3>
@@ -432,18 +392,48 @@ export default function HomePage() {
             </article>
           </div>
 
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-5 lg:self-center">
+            {/* Gabinet — para ujęć o wspólnym traktowaniu: równa wysokość,
+                szerokość kolumn pod orientację kadru, delikatne ocieplenie,
+                żeby chłodne zdjęcia telefonem zgrały się z paletą strony */}
             <div
               data-reveal
-              className="relative aspect-[4/3] w-full overflow-hidden rounded-[10px] lg:aspect-auto lg:h-full lg:min-h-[320px]"
+              className="grid grid-cols-2 gap-3"
             >
-              <Image
-                src="/zdjecia/gabinet-1.jpg"
-                alt="Gabinet: kanapa z poduszkami, fotele i flipchart przy oknie"
-                fill
-                sizes="(max-width: 1024px) 100vw, 40vw"
-                className="object-cover"
-              />
+              <figure className="group relative aspect-square overflow-hidden rounded-[10px] ring-1 ring-espresso/15">
+                <Image
+                  src="/zdjecia/gabinet-1.jpg"
+                  alt="Gabinet: kanapa z poduszkami, fotele i flipchart przy oknie"
+                  fill
+                  sizes="(max-width: 1024px) 60vw, 25vw"
+                  className="object-cover object-[22%_center] saturate-[0.92] transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                />
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-0 bg-peach/20 mix-blend-soft-light"
+                />
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-0 bg-gradient-to-t from-espresso/25 to-transparent"
+                />
+              </figure>
+              <figure className="group relative aspect-square overflow-hidden rounded-[10px] ring-1 ring-espresso/15">
+                <Image
+                  src="/zdjecia/gabinet-2.jpg"
+                  alt="Gabinet: fotele i kanapa wokół niskiego stolika"
+                  fill
+                  sizes="(max-width: 1024px) 40vw, 17vw"
+                  className="object-cover object-[center_62%] saturate-[0.92] transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                />
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-0 bg-peach/20 mix-blend-soft-light"
+                />
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-0 bg-gradient-to-t from-espresso/25 to-transparent"
+                />
+              </figure>
             </div>
 
           </div>
