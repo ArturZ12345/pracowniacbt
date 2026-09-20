@@ -16,7 +16,7 @@ const dane = {
   medicalSpecialty: "Psychiatric",
   telephone: "+48515419680",
   email: "ewazajaclekawa@gmail.com",
-  priceRange: "200–250 zł",
+  priceRange: "200–300 zł",
   currenciesAccepted: "PLN",
   address: {
     "@type": "PostalAddress",
@@ -69,7 +69,7 @@ const dane = {
     {
       "@type": "Offer",
       name: "Spotkanie dla par lub rodzinne (50–70 minut)",
-      price: "250",
+      price: "300",
       priceCurrency: "PLN",
     },
   ],

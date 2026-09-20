@@ -39,7 +39,18 @@ const CENNIK = [
   {
     opis: "Spotkanie dla par, rodzinne trwa od 50 do 70 minut.",
     etykieta: "Cena",
-    kwota: "250 zł.",
+    kwota: "300 zł.",
+  },
+];
+
+const SKANY = [
+  {
+    src: "/zdjecia/certyfikat-pttpb-1510.jpg",
+    alt: "Certyfikat psychoterapeuty poznawczo-behawioralnego Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej, nr 1510",
+  },
+  {
+    src: "/zdjecia/certyfikat-uzaleznienia-sp-1356-2017.jpg",
+    alt: "Certyfikat specjalisty terapii uzależnień wydany przez Krajowe Biuro do Spraw Przeciwdziałania Narkomanii, nr SP/1356/2017",
   },
 ];
 
@@ -142,7 +153,7 @@ export default function HomePage() {
         <div className="container max-w-4xl">
           <p
             data-reveal
-            className="font-display text-2xl leading-[1.5] text-espresso sm:text-3xl lg:text-[2.35rem] lg:leading-[1.45]"
+            className="font-display text-xl leading-[1.6] text-espresso sm:text-2xl lg:text-[1.75rem] lg:leading-[1.55]"
           >
             W Pracowni Psychoterapii Poznawczo-Behawioralnej zapewniam
             profesjonalne wsparcie psychiczne, niezależnie od rodzaju
@@ -193,21 +204,32 @@ export default function HomePage() {
               >
                 Certyfikaty:
               </h2>
-              <figure
-                data-reveal
-                style={delay(80)}
-                className="mt-8 max-w-[440px] overflow-hidden rounded-[10px] border border-espresso/25 bg-white shadow-sm"
-              >
-                <div className="relative aspect-[1360/844] w-full">
-                  <Image
-                    src="/zdjecia/certyfikat-pttpb-1510.jpg"
-                    alt="Certyfikat psychoterapeuty poznawczo-behawioralnego Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej, nr 1510"
-                    fill
-                    sizes="(max-width: 1024px) 100vw, 55vw"
-                    className="object-contain"
-                  />
-                </div>
-              </figure>
+              {/* Skany certyfikatów — ramki o równej wysokości i object-contain,
+                  żeby żaden dokument nie był przycięty mimo różnych proporcji */}
+              <div className="mt-8 grid grid-cols-2 gap-4">
+                {SKANY.map((skan, i) => (
+                  <figure key={skan.src} data-reveal style={delay(80 + i * 90)}>
+                    {/* Miniatura nie pozwala odczytać dokumentu — klik otwiera pełny skan */}
+                    <a
+                      href={skan.src}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`Otwórz pełny skan: ${skan.alt}`}
+                      className="flex h-[240px] items-center justify-center rounded-[10px] border border-espresso/25 bg-white p-3 shadow-sm transition-colors duration-300 hover:border-coral-ink sm:h-[320px]"
+                    >
+                      <span className="relative block h-full w-full">
+                        <Image
+                          src={skan.src}
+                          alt={skan.alt}
+                          fill
+                          sizes="(max-width: 1024px) 45vw, 30vw"
+                          className="object-contain"
+                        />
+                      </span>
+                    </a>
+                  </figure>
+                ))}
+              </div>
 
               <ul className="bullet-list mt-8 border-t border-espresso/25">
                 {CERTYFIKATY.map((item, i) => (
@@ -310,6 +332,23 @@ export default function HomePage() {
                 dzięki czemu pacjent zyskuje narzędzia do radzenia sobie w
                 codziennym życiu.
               </p>
+
+              {/* Cennik — utrzymany w rytmie pozostałych list, bez wyróżnienia */}
+              <ul className="mt-10 border-t border-espresso/25">
+                {CENNIK.map((poz, i) => (
+                  <li
+                    key={poz.kwota}
+                    data-reveal
+                    style={delay(i * 80)}
+                    className="rule-row flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 text-[1.0625rem] leading-[1.75]"
+                  >
+                    <span className="text-espresso/85">{poz.opis}</span>
+                    <span className="whitespace-nowrap text-espresso/85">
+                      {poz.etykieta} {poz.kwota}
+                    </span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
 
@@ -386,8 +425,8 @@ export default function HomePage() {
                 Psychoterapia
               </h2>
               <p className="mt-5 text-[1.0625rem] leading-[1.85] text-espresso/85">
-                ma formę serii regularnych spotkań raz w tygodniu w terminie
-                dostosowanym do możliwości.
+                ma formę serii regularnych spotkań raz w tygodniu, w terminie
+                dostosowanym do potrzeb oraz możliwości.
               </p>
             </article>
           </div>
@@ -439,29 +478,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Cennik — osobny pas pod spodem, żeby kwoty miały miejsce i wagę */}
         <div className="container mt-16 sm:mt-20">
-          <ul className="grid gap-5 sm:grid-cols-2">
-            {CENNIK.map((poz, i) => (
-              <li
-                key={poz.kwota}
-                data-reveal
-                style={delay(i * 90)}
-                className="group flex flex-col justify-between rounded-[10px] border border-espresso/25 bg-peach p-8 transition-colors duration-500 hover:border-coral-ink sm:p-10"
-              >
-                <p className="text-[1.0625rem] leading-[1.75] text-espresso">
-                  {poz.opis}
-                </p>
-                <p className="mt-8 flex items-baseline gap-3 border-t border-espresso/25 pt-6">
-                  <span className="eyebrow text-coral-ink">{poz.etykieta}</span>
-                  <span className="font-display text-5xl leading-none text-espresso sm:text-6xl">
-                    {poz.kwota}
-                  </span>
-                </p>
-              </li>
-            ))}
-          </ul>
-
           {/* Terapia online — zdjęcie zdalnej sesji obok akapitu o Teams */}
           <div
             data-reveal
